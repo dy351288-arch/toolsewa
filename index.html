@@ -1,68 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ToolSewa.in - Free Daily-Use Online Tools for India</title>
-    <meta
-      name="description"
-      content="Free Indian utility tools: Salary Calculator, GST Invoice, Resume Builder, and more. Clean, fast, and secure."
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ToolSewa.in</title>
 
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              india: {
-                orange: '#FF9933',
-                white: '#FFFFFF',
-                green: '#138808',
-                blue: '#000080',
-                gray: '#F5F7FA',
-              },
-            },
-            fontFamily: {
-              sans: ['Inter', 'sans-serif'],
-              handwriting: ['Caveat', 'cursive'],
-            },
-          },
-        },
-      }
-    </script>
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
 
-    <!-- Import Maps -->
-    <script type="importmap">
-      {
-        "imports": {
-          "react-router-dom": "https://esm.sh/react-router-dom@^7.10.1",
-          "lucide-react": "https://esm.sh/lucide-react@^0.561.0",
-          "@google/genai": "https://esm.sh/@google/genai@^1.33.0",
-          "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
-          "react/": "https://esm.sh/react@^19.2.3/",
-          "react": "https://esm.sh/react@^19.2.3",
-          "jspdf": "https://esm.sh/jspdf@^3.0.4",
-          "pdf-lib": "https://esm.sh/pdf-lib@^1.17.1"
-        }
-      }
-    </script>
-  </head>
+  <div class="bg-white p-6 rounded-xl shadow-xl text-center max-w-md">
+    <h1 class="text-3xl font-bold text-orange-500">ToolSewa.in</h1>
+    <p class="mt-3 text-gray-600">
+      Free Online Tools for India 🇮🇳
+    </p>
 
-  <body class="bg-india-gray">
-    <!-- React Root -->
-    <div id="root"></div>
+    <button
+      onclick="alert('Tool coming soon 🚀')"
+      class="mt-5 bg-green-600 text-white px-5 py-2 rounded-lg hover:bg-green-700"
+    >
+      Try Tool
+    </button>
+  </div>
 
-    <!-- React Entry -->
-    <script type="module" src="/index.tsx"></script>
-  </body>
+</body>
 </html>
